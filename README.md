@@ -1,15 +1,15 @@
 # SQL-Data-Warehouse-Project
-🚀 Data Warehouse & Analytics Project
+##🚀 Data Warehouse & Analytics Project
 
 Welcome to my Data Warehouse & Analytics Project.
 
 This project is an end-to-end data warehousing solution built with SQL Server and T-SQL, taking raw data from multiple source systems and transforming it into a structured, analytics-ready data warehouse.
 
-The goal isn't simply to produce a set of SQL queries. It's to demonstrate how I approach a data problem from raw source data through to a reliable analytical model — including data ingestion, transformation, data quality, dimensional modelling, and business-focused analytics.
+The goal isn't simply to produce a set of SQL queries. It's to demonstrate how I approach a data problem from raw source data through to a reliable analytical model including data ingestion, transformation, data quality, dimensional modelling, and business-focused analytics.
 
 I'm particularly interested in the intersection between data analytics and data engineering, and this project is part of my journey toward building stronger engineering-focused skills while applying the analytical experience I already have.
 
-🏗️ Data Architecture
+##🏗️ Data Architecture
 The warehouse follows a Medallion Architecture, separating the data pipeline into Bronze, Silver, and Gold layers.
 
 🥉 Bronze — Raw
@@ -26,7 +26,7 @@ Cleaned data is transformed into a dimensional model using a star schema, provid
 
 Source → Bronze → Silver → Gold → Analytics
 
-🎯 Project Objectives
+##🎯 Project Objectives
 The project focuses on building a complete data pipeline capable of:
 
 Designing a scalable warehouse structure
@@ -41,7 +41,7 @@ Validating data throughout the pipeline
 Producing business-focused analytical insights
 The final warehouse is designed to answer questions around customer behaviour, product performance, and sales trends.
 
-🔄 ETL / Data Engineering
+##🔄 ETL / Data Engineering
 The pipeline is structured into separate stages to make the transformation process easier to understand, maintain, and troubleshoot.
 
 Bronze Layer
@@ -77,7 +77,7 @@ Sales transactions
 Measures and business metrics
 This approach allows analytical queries to remain straightforward while providing a foundation for reporting and BI tools.
 
-🧪 Data Quality
+##🧪 Data Quality
 Data quality is treated as an important part of the pipeline rather than something addressed after the warehouse is built.
 
 Validation includes checks for:
@@ -91,7 +91,7 @@ Unexpected record counts
 Data consistency between source systems
 The tests/ directory contains SQL-based checks used to validate the resulting datasets.
 
-📊 Analytics
+##📊 Analytics
 Once the warehouse has been built, SQL is used to explore the data and generate business insights across areas including:
 
 Customer Behaviour
@@ -111,7 +111,7 @@ Customer and product trends
 Key business metrics
 The objective is to demonstrate how a well-designed warehouse can turn raw operational data into information that can support business decisions.
 
-🛠️ Technology
+##🛠️ Technology
 Core
 
 SQL Server
@@ -126,7 +126,7 @@ Version Control
 
 Git
 GitHub
-📂 Repository Structure
+##📂 Repository Structure
 data-warehouse-project/
 │
 ├── datasets/                  # Raw ERP and CRM datasets
@@ -151,8 +151,8 @@ data-warehouse-project/
 ├── .gitignore
 └── requirements.txt
 
-📈 What I'm Building
-This project represents more than a SQL exercise. I'm using it to develop the skills required to work across the wider data lifecycle — from understanding business requirements and analysing source data through to building reliable data pipelines and analytical data models.
+##📈 What I'm Building
+This project represents more than a SQL exercise. I'm using it to develop the skills required to work across the wider data lifecycle  from understanding business requirements and analysing source data through to building reliable data pipelines and analytical data models.
 
 Future improvements could include:
 
@@ -166,10 +166,10 @@ Cloud-based storage and warehousing
 Performance optimisation
 The aim is to continue evolving this project from a local SQL Server implementation toward a more production-oriented data engineering workflow.
 
-🚀 Why This Project?
+##🚀 Why This Project?
 I started my journey in Data Analytics, where the focus is often on understanding data and turning it into useful insights.
 
-I'm now expanding that skill set into Data Engineering — learning how the data gets collected, transformed, validated, modelled, and ultimately made available for analysis.
+I'm now expanding that skill set into Data Engineering learning how the data gets collected, transformed, validated, modeled, and ultimately made available for analysis.
 
 This project is one step in that progression.
 
