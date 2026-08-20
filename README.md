@@ -8,7 +8,7 @@ This project is an end-to-end data warehousing solution built with SQL Server an
 The goal isn't simply to produce a set of SQL queries. It's to demonstrate how I approach a data problem from raw source data through to a reliable analytical model including data ingestion, transformation, data quality, dimensional modelling, and business-focused analytics.
 
 I'm particularly interested in the intersection between data analytics and data engineering, and this project is part of my journey toward building stronger engineering-focused skills while applying the analytical experience I already have.
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ##🏗️ Data Architecture
 The warehouse follows a Medallion Architecture, separating the data pipeline into Bronze, Silver, and Gold layers.
 
