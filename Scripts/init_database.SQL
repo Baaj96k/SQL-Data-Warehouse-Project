@@ -1,5 +1,6 @@
-##Creating the Data Warehouse Database and Schemas
-##Why do we do this?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Creating the Data Warehouse Database and Schemas
+Why do we do this?
 
 Before building our data warehouse, we need a database to store all the data and objects used in the project.
 
@@ -10,7 +11,6 @@ GO
 
 CREATE DATABASE Datawarehouse;
 GO
-
 
 Once the database has been created, we switch to it:
 
